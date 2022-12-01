@@ -1,0 +1,40 @@
+type StakedEvent @entity {
+  id: ID! # transaction hash
+  account: String!
+  contractAddress: String!
+  stakeAmount: BigInt!
+  timestamp: BigInt!
+}
+
+type WithdrawnEvent @entity {
+  id: ID! # transaction hash
+  account: String!
+  contractAddress: String!
+  withdrawAmount: BigInt!
+  timestamp: BigInt!
+}
+
+type RewardPaidEvent @entity {
+  id: ID! # transaction hash
+  account: String!
+  contractAddress: String!
+  rewardAmount: BigInt!
+  timestamp: BigInt!
+}
+
+type ERC20Transaction @entity {
+  id: ID! # address
+  timestamp: BigInt!
+  from: String! # address
+  to: String! # address
+  amount: BigInt!
+}
+
+type User @entity {
+  id: ID! # contract address + user address
+  account: String!
+  contractAddress: String!
+  amount: BigInt!
+  walletAmount: BigInt!
+  lastOperation: BigInt!
+}

@@ -1,0 +1,20 @@
+- kind: ethereum
+  name: {{ name }}
+  network: {{ chainName }}
+  source:
+    address: "{{address}}"
+    abi: {{ name }}
+    startBlock: {{ blockNumber }}
+  mapping:
+    kind: ethereum/events
+    apiVersion: 0.0.5
+    language: wasm/assemblyscript
+    entities:
+      - Transfer
+    abis:
+      - name: {{ name }}
+        file: ./abis/{{name}}.json
+    eventHandlers:
+      - event: Transfer(indexed address,indexed address,uint256)
+        handler: handleTransfer
+    file: ./src/{{name}}Mapping.ts

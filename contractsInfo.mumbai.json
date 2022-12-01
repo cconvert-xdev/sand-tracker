@@ -1,0 +1,86 @@
+{
+  "name": "mumbai",
+  "chainId": "80001",
+  "parameters": {
+    "ENABLE_LOG": false
+  },
+  "contracts": [
+    {
+      "name": "Sand",
+      "address": "0x592daadC9eA7F56A81De1FD27A723Bd407709c46",
+      "blockNumber": 20986614,
+      "type": "ERC20",
+      "isGeneric": true
+    },
+    {
+      "name": "ERC20RewardPool",
+      "address": "0xDFac735B42C64f50FD39a5Cf18Bb3d457fBE523D",
+      "blockNumber": 27429122,
+      "type": "reward-pool",
+      "isGeneric": true
+    },
+    {
+      "name": "Rare",
+      "address": "0xD812492241b0279Bb4CB2924CEbB05e18973A855",
+      "blockNumber": 28581053,
+      "type": "reward-pool",
+      "isGeneric": true
+    },
+    {
+      "name": "Legendary",
+      "address": "0xF6432bdE25846eEC1D9285c6080D81f99b12Fe2C",
+      "blockNumber": 28581057,
+      "type": "reward-pool",
+      "isGeneric": true
+    },
+    {
+      "name": "Common",
+      "address": "0x35F2C4433C17c02C7f9B352DD51fe5470a6952a9",
+      "blockNumber": 28073901,
+      "type": "reward-pool",
+      "isGeneric": true
+    },
+    {
+      "name": "Epic",
+      "address": "0x7B7571c53dBBDa867C50E6f673204ee62dcF5897",
+      "blockNumber": 28073903,
+      "type": "reward-pool",
+      "isGeneric": true
+    },
+    {
+      "name": "Power",
+      "address": "0x9640570FC0Afd34cb7E5fC94fe798D347F12a14b",
+      "blockNumber": 28581060,
+      "type": "reward-pool",
+      "isGeneric": true
+    },
+    {
+      "name": "Speed",
+      "address": "0xe02209e93d8c73C6DfF5ba386fB33fAC22166c93",
+      "blockNumber": 28581066,
+      "type": "reward-pool",
+      "isGeneric": true
+    },
+    {
+      "name": "Magic",
+      "address": "0x5F8838bCcDB8245dfAcaffDA0972468EF46Ea387",
+      "blockNumber": 28581070,
+      "type": "reward-pool",
+      "isGeneric": true
+    },
+    {
+      "name": "Defense",
+      "address": "0x07107aEDF884495642a08ee43EBaFD56cD9029e1",
+      "blockNumber": 28073905,
+      "type": "reward-pool",
+      "isGeneric": true
+    },
+    {
+      "name": "Luck",
+      "address": "0xFBEfA058D7eBfBb08430920416d8CC82DCd3ef2b",
+      "blockNumber": 28073907,
+      "type": "reward-pool",
+      "isGeneric": true
+    }
+  ]
+}
